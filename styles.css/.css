@@ -65,11 +65,14 @@ cursor: pointer;
 }
  /*--benefits--*/
  .benefits .titles {
+font-weight: 700;
+ letter-spacing: 0.03em;  
 font-size: 14px;
 line-height: 1.14px;
  }
- .benefits .link {
-font-weight: 14px;
+ .benefits .link { 
+letter-spacing: 0.03em;
+font-size: 14px;
 line-height: 1.7px;
 color: #757575;
  }
