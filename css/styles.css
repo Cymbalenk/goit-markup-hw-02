@@ -1,15 +1,20 @@
+:root {
+--primary-text-color:#212121;
+--secondary-text-color:#757575 ;
+--title-text-color:black;
+--accent-color:#2196f3;
+--primary-fount-color:#F5F5F5;
+--secondary-fount-color:#2F303A;
+}
+
 body {
-font-family: 'Raleway', sans-serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto', sans-serif;
-color: #212121;
-background-color:#F5F5F5; 
+   font-family: 'Raleway', sans-serif;
+   font-family: 'Roboto', sans-serif;
+color:var(--primary-text-color);
+background-color:var(--primary-white-color); 
 }
-/*class utilit*/
-.list {
-   text-decoration: none;
-   list-style: none;
-}
+
+
 /*основной цвет текста:#212121;*/
 /*вторичный цвет текста:#757575;*/
 /*цвет выделения ,акцент:#2196f3;*/
@@ -22,86 +27,128 @@ background-color:#F5F5F5;
 .logo {
 font-family:'Raleway';
 font-size: 26px;
-line-height: 1.19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 }
 .studio {
-color: black;
+color:var(--title-text-color);
 
 }
 .web {
-color: #2196f3;  
+color:var(--accent-color);  
 }
 
 .site-nav .link {
+font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
+
 letter-spacing: 0.02em;
-color: #212121;
+color:var(--primary-text-color);
 }
-.site-nav .link:hover {
-color: #2196f3;
+.site-nav .link:hover,
+.site-nav .link:focus {
+color:var(--accent-color);
 }
 .auth-nav .link {
+font-weight: 500;
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color:#757575 ;
+color:var(--secondary-text-color) ;
 }
-.auth-nav .link:hover,.auth-nav .link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
 color:#2196f3;
 }
 /*--main--*/
 .hero-title {
+font-weight: 900;
  font-size: 44px;
- line-height: 1.36px;
+ line-height: 1.36;
+ text-align: center;
 letter-spacing:0.06em;
+
 }
 .hero-but {
 font-size: 16px;
- line-height: 1.88px;
+ line-height: 1.88;
 letter-spacing: 0.06em;
 cursor: pointer;
-background-color: #2196f3;
+background-color:var(--accent-color);
 color: #ffffff;
 }
  /*--benefits--*/
  .benefits .titles {
 font-size: 14px;
-line-height: 1.14px;
+line-height: 1.14;
  }
  .benefits .text {
 font-size: 14px;   
-line-height: 1.71px;
-color: #757575;
+line-height: 1.71;
+color:var(--secondary-text-color);
  }
  /*--works--*/
  /*--comands--*/
  .section-titles {
 font-weight: 36px;
-line-height: 1.17px;
+line-height: 1.17;
+text-align: center;
 letter-spacing: 0.03em;
  }
  .comands .titles {
+   font-weight: 500;
 font-size: 16px;
-line-height: 1.19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
-color: #212121;
+color:var(--primary-text-color);
  } 
  .comands .text {
 font-size: 16px;
-line-height: 1.19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
-color: #757575;
+color: var(--secondary-text-color);
 
  }
+/*стили страницы партфолио*/
+
+/*table butoons transiting*/
+.buttons .buttons-text {
+   font-size: 16px;
+   line-height: 1.62;
+    letter-spacing: 0.03em;
+ cursor: pointer; 
+ color:var(--primary-text-color);
+ }
+ .buttons .buttons-text:hover {
+     background:var(--accent-color);
+     color: #ffffff;
+ }
+ /*partfolio table*/
+ .partfolio .title {
+ font-size: 18px;
+ line-height: 2;
+ font-weight: 700;
+ letter-spacing: 0.06em;
+ color:var(--primary-text-color); 
+ 
+ }
+ .partfolio .text {
+ font-size: 16px;
+ line-height: 1.88;
+ letter-spacing: 0.06em;
+ color:var(--secondary-text-color);
+     
+ }
+       
  /*--footer--*/
  .address .contact {
 font-size: 14px;
-line-height: 1.71px;
+line-height: 1.71;
 letter-spacing: 0.03em;
-color:#757575 ;
+color:var(--secondary-text-color) ;
  }
- .adress .contact:hover {
-    color: #2196f3;
+ .address .contact:hover,
+ .address .contact:focus {
+    color:var(--accent-color);
  }
