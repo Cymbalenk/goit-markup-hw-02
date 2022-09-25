@@ -1,0 +1,107 @@
+body {
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: #212121;
+background-color:#F5F5F5; 
+}
+/*class utilit*/
+.list {
+   text-decoration: none;
+   list-style: none;
+}
+/*основной цвет текста:#212121;*/
+/*вторичный цвет текста:#757575;*/
+/*цвет выделения ,акцент:#2196f3;*/
+/*цвет белый:#ffffff;*/
+/*цвет серый:#000000*/
+/*цвет фона:#F5F5F5;*/
+/*цвет фона торичный:#2F303A;*/
+
+/*--header--*/
+.logo {
+font-family:'Raleway';
+font-size: 26px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+}
+.studio {
+color: black;
+
+}
+.web {
+color: #2196f3;  
+}
+
+.site-nav .link {
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.site-nav .link:hover {
+color: #2196f3;
+}
+.auth-nav .link {
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+color:#757575 ;
+}
+.auth-nav .link:hover,.auth-nav .link:focus {
+color:#2196f3;
+}
+/*--main--*/
+.hero-title {
+ font-size: 44px;
+ line-height: 1.36px;
+letter-spacing:0.06em;
+}
+.hero-but {
+font-size: 16px;
+ line-height: 1.88px;
+letter-spacing: 0.06em;
+cursor: pointer;
+background-color: #2196f3;
+color: #ffffff;
+}
+ /*--benefits--*/
+ .benefits .titles {
+font-size: 14px;
+line-height: 1.14px;
+ }
+ .benefits .text {
+font-size: 14px;   
+line-height: 1.71px;
+color: #757575;
+ }
+ /*--works--*/
+ /*--comands--*/
+ .section-titles {
+font-weight: 36px;
+line-height: 1.17px;
+letter-spacing: 0.03em;
+ }
+ .comands .titles {
+font-size: 16px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+color: #212121;
+ } 
+ .comands .text {
+font-size: 16px;
+line-height: 1.19px;
+letter-spacing: 0.03em;
+color: #757575;
+
+ }
+ /*--footer--*/
+ .address .contact {
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color:#757575 ;
+ }
+ .adress .contact:hover {
+    color: #2196f3;
+ }

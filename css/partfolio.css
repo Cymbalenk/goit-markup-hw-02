@@ -1,0 +1,85 @@
+body {
+font-family: 'Raleway', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+color: #212121;
+}
+ /*основной цвет текста: #black;
+ вторичный цвет текста: #212121;
+ цвет заголовка секции#757575;
+ цвет отображения ссылки: #2196f3;
+ цвет белый: #ffffff;
+
+
+/*header*/
+/*logotype*/
+.logo {
+font-family:'Raleway';
+font-size: 26px;
+ line-height: 1.19px;
+letter-spacing: 0.03em;
+}
+.studio {
+color: black;
+
+}
+.web {
+ color: #2196f3;  
+}
+/*list nav*/
+.site-nav .link{
+ font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.02em;
+ color: #212121;
+}
+.site-nav .link:hover {
+  color: #2196f3;
+}
+.auth-nav .link {
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+color:#757575 ;
+}
+.auth-nav .link:hover {
+color:#2196f3;
+}
+/*table butoons transiting*/
+.buttons .buttons-text {
+  font-size: 16px;
+  line-height: 1.62px;
+   letter-spacing: 0.03em;
+cursor: pointer; 
+color:#212121;
+}
+.buttons .buttons-text:hover {
+    background: #2196f3;
+    color: #ffffff;
+}
+/*partfolio table*/
+.partfolio .title {
+font-size: 18px;
+line-height: 2px;
+letter-spacing: 0.06em;
+color: #212121; 
+
+}
+.partfolio .text {
+font-size: 16px;
+line-height: 1.88px;
+letter-spacing: 0.06em;
+color: #757575;
+    
+}
+ /*footer*/
+ .address .link {
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+color:#757575 ;
+ }
+.address link:hover {
+color:#2196f3;
+ }
+        
