@@ -2,9 +2,11 @@
 --primary-text-color:#212121;
 --secondary-text-color:#757575 ;
 --title-text-color:black;
+--three-text-color:#ffffff;
 --accent-color:#2196f3;
 --primary-fount-color:#F5F5F5;
 --secondary-fount-color:#2F303A;
+--three-fount-color:#f5f4fa;
 }
 
 body {
@@ -13,9 +15,20 @@ body {
 color:var(--primary-text-color);
 background-color:var(--primary-white-color); 
 }
+.title {
+   visibility: hidden;
+}
+ul {
+   list-style: none;
 
-
+}
+a {
+   text-decoration: none;
+}
 /*--header--*/
+.hero {
+   background-color:var(--secondary-fount-color);
+}
 .logo {
 font-family:'Raleway';
 font-size: 26px;
@@ -51,16 +64,20 @@ color:var(--secondary-text-color) ;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-color:#2196f3;
+color:var(--accent-color);
 }
 /*--main--*/
+.hero {
+   background-color:var(--secondary-fount-color);
+}
 .hero-title {
+   text-transform: uppercase;
 font-weight: 900;
  font-size: 44px;
  line-height: 1.36;
  text-align: center;
 letter-spacing:0.06em;
-
+color: var(--three-text-color);
 }
 .hero-but {
 font-size: 16px;
@@ -68,10 +85,11 @@ font-size: 16px;
 letter-spacing: 0.06em;
 cursor: pointer;
 background-color:var(--accent-color);
-color: #ffffff;
+color: var(--three-text-color);
 }
  /*--benefits--*/
  .benefits .titles {
+   text-transform: uppercase;
 font-size: 14px;
 line-height: 1.14;
  }
@@ -80,8 +98,11 @@ font-size: 14px;
 line-height: 1.71;
 color:var(--secondary-text-color);
  }
- /*--works--*/
+
  /*--comands--*/
+ .section-comands {
+   background-color:var(--three-fount-color);
+ }
  .section-titles {
 font-weight: 36px;
 line-height: 1.17;
@@ -106,21 +127,22 @@ color: var(--secondary-text-color);
 
 /*table butoons transiting*/
 .buttons .buttons-text {
+   font-weight: 500;
    font-size: 16px;
-   line-height: 1.62;
+   line-height: 1.63;
     letter-spacing: 0.03em;
  cursor: pointer; 
  color:var(--primary-text-color);
  }
  .buttons .buttons-text:hover {
      background:var(--accent-color);
-     color: #ffffff;
+     color: var(--three-text-color);
  }
  /*partfolio table*/
  .partfolio .title {
+ font-weight: 700;
  font-size: 18px;
  line-height: 2;
- font-weight: 700;
  letter-spacing: 0.06em;
  color:var(--primary-text-color); 
  
@@ -134,12 +156,22 @@ color: var(--secondary-text-color);
  }
        
  /*--footer--*/
+ .basement {
+   background-color:var(--secondary-fount-color);
+ }
+ .logo-studio {
+   color:var(--three-text-color) ;
+ }
  .address .contact {
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color:var(--secondary-text-color) ;
+color:rgba(225, 225, 225, 0.6) ;
  }
+ .address .address-contact {
+   color:var(--three-text-color);
+ }
+
  .address .contact:hover,
  .address .contact:focus {
     color:var(--accent-color);
