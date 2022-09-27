@@ -139,7 +139,7 @@ color: var(--secondary-text-color);
      color: var(--three-text-color);
  }
  /*partfolio table*/
- .partfolio .title {
+ .partfolio .titles {
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
