@@ -1,3 +1,7 @@
+
+
+
+
 :root {
 --primary-text-color:#212121;
 --secondary-text-color:#757575 ;
@@ -12,11 +16,24 @@
 body {
    font-family: 'Raleway', sans-serif;
    font-family: 'Roboto', sans-serif;
+
 color:var(--primary-text-color);
-background-color:var(--primary-white-color); 
+background:var(--three-text-color); 
+
+
 }
-.title {
-   visibility: hidden;
+/*Скрытые заголовки*/
+.visiblity-hidden {
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   height: 1px;
+   overflow: hidden;
+   border: 0;
+   padding: 0;
+   clip: rect(0 0 0 0);
+   clip-path: inset(50%);
+   margin: -1px;   
 }
 ul {
    list-style: none;
@@ -25,10 +42,12 @@ ul {
 a {
    text-decoration: none;
 }
-/*--header--*/
-.hero {
-   background-color:var(--secondary-fount-color);
+/*--Шапка--*/
+
+.page-heder {
+   background-color:var(--three-text-color);
 }
+/*Логотип*/
 .logo {
 font-family:'Raleway';
 font-size: 26px;
@@ -42,66 +61,85 @@ color:var(--title-text-color);
 .web {
 color:var(--accent-color);  
 }
-
-.site-nav .link {
+/*навигация сайта*/
+.site-nav .link { 
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
-
 letter-spacing: 0.02em;
+
 color:var(--primary-text-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
 color:var(--accent-color);
 }
+
+/*Email and tell*/
 .auth-nav .link {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
+
 color:var(--secondary-text-color) ;
 }
 .auth-nav .link:hover,
-.auth-nav .link:focus {
+.auth-nav .link:focus,
+.auth-nav .link:visited {
 color:var(--accent-color);
 }
-/*--main--*/
+/*--Герой--*/
 .hero {
-   background-color:var(--secondary-fount-color);
+   background:var(--secondary-fount-color);
 }
 .hero-title {
+
    text-transform: uppercase;
 font-weight: 900;
  font-size: 44px;
  line-height: 1.36;
  text-align: center;
 letter-spacing:0.06em;
+
 color: var(--three-text-color);
 }
+/*Кнопка героя*/
 .hero-but {
+cursor: pointer; 
+font-family: inherit; 
 font-size: 16px;
- line-height: 1.88;
 letter-spacing: 0.06em;
-cursor: pointer;
-background-color:var(--accent-color);
+
+background:var(--accent-color);
 color: var(--three-text-color);
+
+border: 1px var(--accent-color);
+border-radius: 4px;
 }
- /*--benefits--*/
+.hero-but:hover,
+.hero-but:focus {
+   background:var(--accent-color);
+   color: var(--three-text-color);
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+   border-radius: 4px;
+}
+ /*--Преимущества--*/
  .benefits .titles {
-   text-transform: uppercase;
+text-transform: uppercase;
 font-size: 14px;
 line-height: 1.14;
  }
  .benefits .text {
 font-size: 14px;   
 line-height: 1.71;
+
 color:var(--secondary-text-color);
  }
 
- /*--comands--*/
+ /*--Команда--*/
  .section-comands {
-   background-color:var(--three-fount-color);
+background:var(--three-fount-color);
  }
  .section-titles {
 font-weight: 36px;
@@ -110,7 +148,7 @@ text-align: center;
 letter-spacing: 0.03em;
  }
  .comands .titles {
-   font-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -125,25 +163,37 @@ color: var(--secondary-text-color);
  }
 /*стили страницы партфолио*/
 
-/*table butoons transiting*/
-.buttons .buttons-text {
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 1.63;
-    letter-spacing: 0.03em;
- cursor: pointer; 
+/*Таблица с кнопками*/
+.button .buttons {
+display: inline-block;
+align-content: center;
+
+font-family: inherit;
+cursor: pointer; 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+border: 1px var(--three-fount-color);
+
  color:var(--primary-text-color);
+ background: var(--three-fount-color);
+ border-radius: 4px;
+ 
  }
- .buttons .buttons-text:hover {
+ .button .buttons:hover,
+ .button .buttons:focus,
+ .button .buttons:visited {
      background:var(--accent-color);
      color: var(--three-text-color);
  }
- /*partfolio table*/
+ /*Партфолио*/
  .partfolio .titles {
  font-weight: 700;
  font-size: 18px;
  line-height: 2;
  letter-spacing: 0.06em;
+
  color:var(--primary-text-color); 
  
  }
@@ -151,28 +201,43 @@ color: var(--secondary-text-color);
  font-size: 16px;
  line-height: 1.88;
  letter-spacing: 0.06em;
+
  color:var(--secondary-text-color);
      
  }
        
- /*--footer--*/
+ /*--Подвал--*/
  .basement {
-   background-color:var(--secondary-fount-color);
+   background:var(--secondary-fount-color);
  }
  .logo-studio {
    color:var(--three-text-color) ;
  }
  .address .contact {
+font-style: normal;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
+
 color:rgba(225, 225, 225, 0.6) ;
  }
+.address .contact:hover,
+.address .contact:focus,
+.address .contact:visited {
+   color:var(--accent-color); 
+}
+
+
+
+
  .address .address-contact {
    color:var(--three-text-color);
  }
 
- .address .contact:hover,
- .address .contact:focus {
-    color:var(--accent-color);
- }
+ .address .address-contact:hover,
+ .address .address-contact:focus {
+color:var(--accent-color);
+}
+address {
+   font-style: normal;
+}
