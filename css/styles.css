@@ -14,8 +14,8 @@
 }
 
 body {
-   font-family: 'Raleway', sans-serif;
-   font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
 
 color:var(--primary-text-color);
 background:var(--three-text-color); 
@@ -146,7 +146,7 @@ text-align: center;
 letter-spacing: 0.03em;
  }
  .comands .titles {
-font-weight: 500;
+fnt-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
