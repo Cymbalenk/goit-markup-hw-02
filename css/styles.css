@@ -95,7 +95,7 @@ color:var(--accent-color);
 }
 .hero-title {
 
-   text-transform: uppercase;
+text-transform: uppercase;
 font-weight: 900;
  font-size: 44px;
  line-height: 1.36;
@@ -114,15 +114,13 @@ letter-spacing: 0.06em;
 background:var(--accent-color);
 color: var(--three-text-color);
 
-border: 1px var(--accent-color);
-border-radius: 4px;
 }
 .hero-but:hover,
 .hero-but:focus {
-   background:var(--accent-color);
-   color: var(--three-text-color);
-   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-   border-radius: 4px;
+background:var(--accent-color);
+color: var(--three-text-color);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
 }
  /*--Преимущества--*/
  .benefits .titles {
@@ -165,8 +163,6 @@ color: var(--secondary-text-color);
 
 /*Таблица с кнопками*/
 .button .buttons {
-display: inline-block;
-align-content: center;
 
 font-family: inherit;
 cursor: pointer; 
@@ -174,7 +170,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 letter-spacing: 0.03em;
-border: 1px var(--three-fount-color);
+
 
  color:var(--primary-text-color);
  background: var(--three-fount-color);
@@ -184,8 +180,8 @@ border: 1px var(--three-fount-color);
  .button .buttons:hover,
  .button .buttons:focus,
  .button .buttons:visited {
-     background:var(--accent-color);
-     color: var(--three-text-color);
+ background:var(--accent-color);
+ color: var(--three-text-color);
  }
  /*Партфолио*/
  .partfolio .titles {
