@@ -1,7 +1,4 @@
 
-
-
-
 :root {
 --primary-text-color:#212121;
 --secondary-text-color:#757575 ;
@@ -24,28 +21,28 @@ background:var(--three-text-color);
 }
 /*Скрытые заголовки*/
 .visiblity-hidden {
-   position: absolute;
-   white-space: nowrap;
-   width: 1px;
-   height: 1px;
-   overflow: hidden;
-   border: 0;
-   padding: 0;
-   clip: rect(0 0 0 0);
-   clip-path: inset(50%);
-   margin: -1px;   
+position: absolute;
+white-space: nowrap;
+width: 1px;
+height: 1px;
+overflow: hidden;
+border: 0;
+padding: 0;
+clip: rect(0 0 0 0);
+clip-path: inset(50%);
+margin: -1px;   
 }
 ul {
-   list-style: none;
+list-style: none;
 
 }
 a {
-   text-decoration: none;
+text-decoration: none;
 }
 /*--Шапка--*/
 
 .page-heder {
-   background-color:var(--three-text-color);
+background-color:var(--three-text-color);
 }
 /*Логотип*/
 .logo {
@@ -91,15 +88,14 @@ color:var(--accent-color);
 }
 /*--Герой--*/
 .hero {
-   background:var(--secondary-fount-color);
+background:var(--secondary-fount-color);
 }
+/*Заголовок героя*/
 .hero-title {
-
 text-transform: uppercase;
 font-weight: 900;
- font-size: 44px;
- line-height: 1.36;
- text-align: center;
+font-size: 44px;
+line-height: 1.36;
 letter-spacing:0.06em;
 
 color: var(--three-text-color);
@@ -122,6 +118,9 @@ color: var(--three-text-color);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 }
+.link-current{
+ color: var(--accent-color);  
+} 
  /*--Преимущества--*/
  .benefits .titles {
 text-transform: uppercase;
@@ -139,14 +138,17 @@ color:var(--secondary-text-color);
  .section-comands {
 background:var(--three-fount-color);
  }
+ .card {
+background: var(--three-text-color);
+ }
+ /*Заголовки секций*/
  .section-titles {
 font-weight: 36px;
 line-height: 1.17;
-text-align: center;
 letter-spacing: 0.03em;
  }
  .comands .titles {
-fnt-weight: 500;
+font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
@@ -162,8 +164,7 @@ color: var(--secondary-text-color);
 /*стили страницы партфолио*/
 
 /*Таблица с кнопками*/
-.button .buttons {
-
+.buttons .button-primary {
 font-family: inherit;
 cursor: pointer; 
 font-weight: 500;
@@ -172,14 +173,26 @@ line-height: 1.63;
 letter-spacing: 0.03em;
 
 
- color:var(--primary-text-color);
- background: var(--three-fount-color);
- border-radius: 4px;
+ color:var(--three-text-color);
+ background:var(--accent-color);
+ 
  
  }
- .button .buttons:hover,
- .button .buttons:focus,
- .button .buttons:visited {
+ .buttons .button-secondary {
+font-family: inherit;
+cursor: pointer; 
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+letter-spacing: 0.03em;
+
+color:var(--primary-text-color);
+  
+
+ }
+ .button-secondary:hover,
+ .button-secondary:focus,
+ .button-secondary:visited {
  background:var(--accent-color);
  color: var(--three-text-color);
  }
@@ -204,10 +217,10 @@ letter-spacing: 0.03em;
        
  /*--Подвал--*/
  .basement {
-   background:var(--secondary-fount-color);
+background:var(--secondary-fount-color);
  }
  .logo-studio {
-   color:var(--three-text-color) ;
+color:var(--three-text-color) ;
  }
  .address .contact {
 font-style: normal;
@@ -220,20 +233,15 @@ color:rgba(225, 225, 225, 0.6) ;
 .address .contact:hover,
 .address .contact:focus,
 .address .contact:visited {
-   color:var(--accent-color); 
+ color:var(--accent-color); 
 }
-
-
-
-
  .address .address-contact {
-   color:var(--three-text-color);
+ color:var(--three-text-color);
  }
-
  .address .address-contact:hover,
  .address .address-contact:focus {
 color:var(--accent-color);
 }
 address {
-   font-style: normal;
+font-style: normal;
 }
