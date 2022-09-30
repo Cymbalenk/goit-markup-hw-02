@@ -222,7 +222,10 @@ color:var(--primary-text-color);
      
  }
        
- /*--Подвал--*/
+ /*--Подвал--*/address {
+font-style: normal;
+}
+
  .basement {
 background:var(--secondary-fount-color);
  }
@@ -242,13 +245,16 @@ color:rgba(225, 225, 225, 0.6) ;
 .address .contact:visited {
  color:var(--accent-color); 
 }
- .address .address-contact {
+.address .address-contact {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71px;
+letter-spacing: 0.03em;
+
  color:var(--three-text-color);
  }
  .address .address-contact:hover,
  .address .address-contact:focus {
 color:var(--accent-color);
-}
-address {
-font-style: normal;
 }
